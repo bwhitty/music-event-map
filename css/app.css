@@ -1,0 +1,48 @@
+/* ==============================================
+ * Control Bar 
+   ============================================== */
+#control_bar .well {
+	margin: 1em 0;
+	padding: .5em;
+}
+
+.btn-group {
+	margin-top: 10px;
+}
+
+#legend {
+	margin-top: 10px;
+}
+
+#legend > p {
+	font-size: 115%;
+}
+
+/* ==============================================
+ * Marker Infowindows 
+   ============================================== */
+.infowindow {
+	width: 370px;
+	margin: 5px;
+	overflow: hidden;
+}
+.infowindow-thumbnail {
+	height: 80px;
+	width: 80px;
+	margin-right: 10px;
+	float: left;
+}
+.infowindow-information {
+	display: inline;
+}
+.infowindow a {
+	margin-top: 10px;
+}
+
+
+/* Fixes an issue with twitter bootstrap setting image max-width to 100% and causing distortion
+ * in some Google Maps elements .
+ */
+#map_canvas img {
+	max-width: none;
+}
