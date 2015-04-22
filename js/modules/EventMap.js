@@ -2,9 +2,9 @@ class EventMap {
     /**
      * @param {google.maps.map} map A google maps instance.
      */
-    construct(map) {
-        if (! map instanceof google.maps.Map) {
-            throw new Error('Map must be of type google.maps.map');
+    constructor(map) {
+        if (! map) {
+            throw new Error('No map given');
         }
 
         this.map = map;

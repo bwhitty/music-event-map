@@ -42,3 +42,14 @@ describe('Lastfm API module', () => {
         });
     });
 });
+
+describe('EventMap module', () => {
+
+    describe('EventMap class', () => {
+        it('should fatal when not passed a Map object upon instantiation', () => {
+            assert.throws(() => {
+                new EventMap();
+            }, Error, /No map given/);
+        });
+    });
+});
