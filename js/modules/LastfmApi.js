@@ -12,4 +12,4 @@ class LastfmApi {
     }
 }
 
-modules.exports = LastfmApi;
+export default LastfmApi;
