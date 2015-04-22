@@ -4,7 +4,7 @@
   "description": "Music Event Map - Simple Google Maps and Last.fm mashup.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel/register"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "gulp-sourcemaps": "^1.5.1",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.4",
+    "mocha": "^2.2.4",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }

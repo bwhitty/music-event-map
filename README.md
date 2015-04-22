@@ -15,4 +15,9 @@ $ gulp
 
 Test
 ====
-TODO
+This library uses Mocha for tests. Mocha is hooked up to Babel via package.json's test script definition.
+Run
+```bash
+$ npm test
+```
+to run Mocha with the Babel transpiler.

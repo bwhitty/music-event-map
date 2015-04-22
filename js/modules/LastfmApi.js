@@ -1,5 +1,5 @@
 class LastfmApi {
-    construct(apiKey) {
+    constructor(apiKey) {
         this.apiKey = apiKey;
     }
 
